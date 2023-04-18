@@ -14,13 +14,13 @@
     <fieldset>
         
         <label for="first-name">Enter Your First Name: 
-             <input id="first-name" type="text" required /></label>
+             <input name="first-name" id="first-name" type="text" required /></label>
         <label for="last-name">Enter Your Last Name:
-             <input id="last-name" type="text" required /></label>
+             <input name="last-name" id="last-name" type="text" required /></label>
         <label for="email">Enter Your Email: 
-             <input id="email" type="email" required /></label>
+             <input name="email" id="email" type="email" required /></label>
         <label for="new-password">Create a New Password: 
-             <input id="new-password" type="password" minlength="8" pattern="[a-z0-5]{8,}" required /></label>
+             <input name="new-password" id="new-password" type="password" minlength="8" pattern="[a-z0-5]{8,}" required /></label>
     </fieldset>
     <fieldset>
         <Label for="personal-account">
@@ -31,14 +31,16 @@
         </Label>
         <Label for="terms-and-conditions">
             
-            <input id="terms-and-conditions " type="checkbox" required>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/"> terms and coditions</a> 
+            
+            
+            <input name="terms-and-conditions" id="terms-and-conditions " type="checkbox" required>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/"> terms and coditions</a> 
         </Label>
         
         
     </fieldset>
     <fieldset>
         <label for="profile-picture">Upload a profile picture:
-            <input id="profile-picture" type="file">
+            <input name="profile-picture" id="profile-picture" type="file">
         </label>
         <label for="age">Input your age (years):
             <input type="number" name="" id="age" min="13" max="120">
@@ -48,7 +50,7 @@
                 <option value="">(select one)</option>
                 <option value="1">freeCodeCamp News</option>
                 <option value="2">freeCodeCamp YouTube Channel</option>
-                <option value="3">freeCodeCamp Forum</option>
+                <option value="3">freeCodeCamp Forum type</option>
                 <option value="4">Other</option>
             </select>
         </label>  
